@@ -13,7 +13,7 @@ public class addressbook {
 	public void launch() {
 		System.setProperty("webdriver.driver.chrome","chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("http://35.237.59.210:32769/addressbook/");
+		driver.get("http://10.0.2.15:32768/addressbook/");
 		
 	}
   @Test
