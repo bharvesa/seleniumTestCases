@@ -12,6 +12,9 @@ public class addressbook {
 	@BeforeMethod
 	public void launch() {
 		System.setProperty("webdriver.chrome.driver","/home/edureka/chromedriver");
+		ChromeOptions options= new ChromeOptions();
+		options.addArguments("--headless");
+		ChromeDriver driver = new ChromeDriver(options);
 		driver = new ChromeDriver();
 		driver.get("http://10.0.2.15:32768/addressbook/");
 		
