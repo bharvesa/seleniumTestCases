@@ -16,7 +16,7 @@ public class addressbook {
 		ChromeOptions options= new ChromeOptions();
 		options.addArguments("--headless");
 		options.addArguments("--no-sandbox");
-		ChromeDriver driver = new ChromeDriver(options);
+		driver = new ChromeDriver(options);
 		driver.get("http://10.0.2.15:32768/addressbook/");
 		
 	}
