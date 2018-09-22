@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class addressbook {
 	 WebDriver driver;
@@ -15,7 +16,6 @@ public class addressbook {
 		ChromeOptions options= new ChromeOptions();
 		options.addArguments("--headless");
 		ChromeDriver driver = new ChromeDriver(options);
-		driver = new ChromeDriver();
 		driver.get("http://10.0.2.15:32768/addressbook/");
 		
 	}
