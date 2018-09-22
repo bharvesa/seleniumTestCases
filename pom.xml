@@ -4,6 +4,10 @@
   <artifactId>webapp-addbook</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Addressbook</name>
+  <groupId>selenium</groupId>
+  <artifactId>selenium</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
   <dependencies>
   <dependency>
    <groupId>org.seleniumhq.selenium</groupId>
@@ -17,12 +21,6 @@
     <version>6.8</version>
     <scope>test</scope>
 </dependency> 
-    <dependency>
-    <groupId>selenium</groupId>
-  <artifactId>selenium</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-      </dependency>
 <dependency>
    <groupId>junit</groupId>
       <artifactId>junit</artifactId>
